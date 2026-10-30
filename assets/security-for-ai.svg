@@ -1,35 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
   <title id="title">Security for AI</title>
-  <desc id="desc">AI security research, prompt injection, and Agent security. A dark technical banner with a cyan and violet geometric butterfly.</desc>
+  <desc id="desc">Mint and violet auroras above an arctic glacier and a still blue fjord. AI security research, multimodal testing, and Agent security.</desc>
   <defs>
-    <linearGradient id="bg" x2="1" y2="1">
-      <stop stop-color="#080e1e"/>
-      <stop offset="1" stop-color="#17132d"/>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#030d1c"/>
+      <stop offset="0.55" stop-color="#0a2438"/>
+      <stop offset="1" stop-color="#244f64"/>
     </linearGradient>
-    <linearGradient id="accent" x2="1" y2="1">
-      <stop stop-color="#67e8f9"/>
-      <stop offset="1" stop-color="#a78bfa"/>
+    <linearGradient id="aurora" x1="0" y1="1" x2="0.8" y2="0">
+      <stop stop-color="#65f5cf" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#65f5cf" stop-opacity=".65"/>
+      <stop offset="0.7" stop-color="#66dfe8" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#b6a0ff" stop-opacity=".12"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#94a3b8" stroke-opacity=".07"/>
-    </pattern>
+    <linearGradient id="violet" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#69dacc" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#a899ff" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#a899ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="0.7" y2="1">
+      <stop stop-color="#ddf9ff"/>
+      <stop offset=".45" stop-color="#91cbdc"/>
+      <stop offset="1" stop-color="#386b91"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#163f55"/>
+      <stop offset="1" stop-color="#071b2c"/>
+    </linearGradient>
+    <linearGradient id="shade">
+      <stop stop-color="#030d1c" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#030d1c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="17"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="460" rx="20"/></clipPath>
   </defs>
-  <rect width="960" height="300" rx="18" fill="url(#bg)"/>
-  <rect x="1" y="1" width="958" height="298" rx="17" fill="url(#grid)" stroke="#334155" stroke-opacity=".6"/>
-  <path d="M48 50h40M48 50v20M912 250h-40M912 250v-20" fill="none" stroke="url(#accent)" stroke-width="2"/>
-  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-    <text x="64" y="88" fill="#67e8f9" font-size="12" letter-spacing="3">RESEARCH · BUILD · SHARE</text>
-    <text x="60" y="151" fill="#f1f5f9" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="53" font-weight="700" letter-spacing="-2">Security for AI</text>
-    <text x="64" y="192" fill="#cbd5e1" font-size="15">Explore the inputs. Understand the impact.</text>
-    <text x="64" y="245" fill="#94a3b8" font-size="11" letter-spacing="1">PROMPT INJECTION · MULTIMODAL TESTING · AGENT SECURITY</text>
-  </g>
-  <g transform="translate(773 144)" stroke="url(#accent)" stroke-width="1.5" stroke-linejoin="round">
-    <circle r="106" fill="none" stroke-opacity=".15"/>
-    <circle r="83" fill="none" stroke-opacity=".12" stroke-dasharray="3 8"/>
-    <path d="M0 5L-90-64-63 16-11 44ZM0 5L90-64 63 16 11 44Z" fill="#67e8f9" fill-opacity=".06"/>
-    <path d="M-11 23L-65 44-34 88 0 48 34 88 65 44 11 23" fill="#a78bfa" fill-opacity=".1"/>
-    <path d="M-90-64L-11 44-63 16M90-64L11 44 63 16M0-10V48M0-10L-14-26M0-10L14-26" fill="none"/>
-    <circle cx="-90" cy="-64" r="3" fill="#67e8f9" stroke="none"/>
-    <circle cx="90" cy="-64" r="3" fill="#a78bfa" stroke="none"/>
+  <g clip-path="url(#frame)">
+    <path fill="url(#sky)" d="M0 0h1200v460H0z"/>
+    <g fill="#e4fbff">
+      <circle cx="70" cy="43" r="1" opacity=".7"/>
+      <circle cx="193" cy="72" r="1.3" opacity=".6"/>
+      <circle cx="315" cy="32" r=".8" opacity=".5"/>
+      <circle cx="444" cy="64" r="1" opacity=".75"/>
+      <circle cx="578" cy="31" r="1.1" opacity=".5"/>
+      <circle cx="690" cy="93" r=".8" opacity=".7"/>
+      <circle cx="763" cy="40" r="1.4" opacity=".8"/>
+      <circle cx="875" cy="75" r=".8" opacity=".6"/>
+      <circle cx="993" cy="35" r="1" opacity=".65"/>
+      <circle cx="1124" cy="87" r="1.3" opacity=".8"/>
+      <circle cx="1060" cy="171" r=".9" opacity=".6"/>
+      <circle cx="1172" cy="207" r=".9" opacity=".5"/>
+      <circle cx="649" cy="157" r="1" opacity=".5"/>
+      <circle cx="932" cy="206" r=".7" opacity=".6"/>
+    </g>
+    <path d="M380-50C530 180 685 245 845 109S1100 20 1260 93" fill="none" stroke="url(#aurora)" stroke-width="95" filter="url(#glow)"/>
+    <path d="M410-50C565 173 687 210 847 91S1109 9 1250 66" fill="none" stroke="url(#aurora)" stroke-width="32" filter="url(#soft)"/>
+    <path d="M631-65C691 74 822 180 1000 71S1133 6 1240 21" fill="none" stroke="url(#violet)" stroke-width="70" filter="url(#glow)"/>
+    <path d="M481-10C588 180 708 193 856 87S1089 14 1201 49" fill="none" stroke="#9af5da" stroke-opacity=".24" stroke-width="2" filter="url(#soft)"/>
+    <path d="M0 319L80 283 128 302 208 260 269 303 342 274 414 315 506 282 597 312 682 267 741 293 832 253 925 295 1030 251 1133 291 1200 265V460H0Z" fill="#284b65"/>
+    <path d="M0 347L99 312 179 333 275 300 360 333 455 310 548 345 656 309 733 336 838 286 912 319 1022 278 1111 323 1200 299V460H0Z" fill="#3d6c84"/>
+    <path d="M0 355Q350 330 630 355T1200 350V460H0Z" fill="url(#water)"/>
+    <path d="M670 356L757 287 823 304 908 217 962 257 1019 244 1091 307 1147 280 1200 313V380L1102 373 1015 387 941 368 854 382 773 365Z" fill="url(#ice)"/>
+    <path d="M757 287L784 346 823 304 812 366 854 382 860 316 908 217 885 334 941 368 962 257 966 345 1015 387 1019 244 1049 331 1102 373 1091 307 1147 280 1131 347 1200 380V395L1080 387 1007 399 936 382 855 394 770 377 670 356Z" fill="#447d9f" opacity=".68"/>
+    <path d="M670 356L757 287 823 304 908 217 962 257 1019 244 1091 307 1147 280 1200 313" fill="none" stroke="#e0fbff" stroke-opacity=".7" stroke-width="1.5"/>
+    <path d="M0 375L74 328 126 348 193 306 245 357 312 371 356 395 270 408 170 393 81 410 0 397Z" fill="url(#ice)"/>
+    <path d="M74 328L91 383 126 348 170 393 193 306 205 370 270 408 245 357 312 371 356 395 270 421 170 408 81 423 0 408V397Z" fill="#396786" opacity=".85"/>
+    <g fill="none" stroke="#8fd8e5" stroke-linecap="round">
+      <path d="M390 380h133m-88 15h184m-269 26h150m64-9h73m121 17h182m-92-26h129m53 20h90" opacity=".17"/>
+      <path d="M470 367h95m166 36h49m-380 39h226m316-22h61" opacity=".25"/>
+    </g>
+    <path fill="url(#shade)" d="M0 0h690v320H0z"/>
+    <g font-family="system-ui, -apple-system, Segoe UI, sans-serif">
+      <text x="72" y="113" fill="#a5eddf" font-size="13" font-weight="500" letter-spacing="4">AI SECURITY RESEARCH</text>
+      <text x="68" y="183" fill="#effbff" font-size="62" font-weight="650" letter-spacing="-2">Security for AI</text>
+      <text x="72" y="225" fill="#bed6e2" font-size="19" letter-spacing=".3">Explore the inputs. Understand the impact.</text>
+      <path d="M73 258h42" stroke="#93e8d5" stroke-width="2"/>
+      <text x="130" y="263" fill="#b3d0de" font-size="12" letter-spacing="2">RESEARCH · BUILD · SHARE</text>
+    </g>
   </g>
 </svg>

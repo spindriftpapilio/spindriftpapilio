@@ -1,26 +1,45 @@
 <p align="center">
-  <img src="assets/security-for-ai.svg" alt="Security for AI — prompt injection, multimodal testing, and Agent security" width="100%">
+  <img src="assets/security-for-ai.svg" alt="Security for AI — auroras over an arctic glacier" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://icesky.securityforai1.com">Explore IceSky</a> ·
-  <a href="https://github.com/spindriftpapilio/AI-Agent-skills">Agent Security Skills</a> ·
-  <a href="https://github.com/spindriftpapilio/AI-Security-zh">Research Resources</a>
+  <a href="https://icesky.securityforai1.com">Explore IceSky</a> &nbsp; · &nbsp;
+  <a href="https://github.com/spindriftpapilio/AI-Agent-skills">Agent Security</a> &nbsp; · &nbsp;
+  <a href="https://github.com/spindriftpapilio/AI-Security-zh">Research Library</a>
 </p>
 
-I explore what happens when untrusted input meets an AI system that can act. Based in Chengdu, I build tools for prompt injection testing and investigate how AI Agents handle instructions, tools, files, and permissions.
+<br>
 
-My focus is where model behavior becomes system behavior, from a hidden instruction in a document to an Agent loading project configuration or invoking a tool.
+### Where model behavior becomes system behavior
 
-<p align="center"><sub>PROMPT INJECTION · MULTIMODAL INPUTS · MCP · WORKSPACE TRUST · TOOL EXECUTION</sub></p>
+I'm a developer based in Chengdu, exploring what happens when untrusted input meets an AI system that can act. I build tools for prompt injection testing and study how AI Agents handle instructions, tools, files, and permissions.
 
----
+My work spans multimodal inputs, MCP configuration, workspace trust, and approval mechanisms, with an emphasis on observable behavior and reproducible tests.
 
-[IceSky](https://github.com/spindriftpapilio/icesky) is my browser-based workbench for multimodal prompt injection testing. Transform text, compose multi-turn conversations, and generate test samples across documents, images, audio, email, web content, MCP definitions, and Agent configurations. Local processing and sample generation run without a backend.
+<br>
 
-[AI-Agent-skills](https://github.com/spindriftpapilio/AI-Agent-skills) brings security assessment methods to coding Agents and AI-powered development tools. The collection explores workspace trust, approval mechanisms, MCP configuration, hooks, and skill supply chains, with an emphasis on observable behavior and reproducible tests.
+### IceSky
 
-[AI-Security-zh](https://github.com/spindriftpapilio/AI-Security-zh) and [LLM-Jailbreak](https://github.com/spindriftpapilio/LLM-Jailbreak) collect the references behind the experiments, including Chinese-language learning resources, AI security tools, and jailbreak research notes.
+A browser-based workbench for multimodal prompt injection testing.
+
+Transform text, compose multi-turn conversations, and create test samples across documents, images, audio, email, and web content. Explore MCP definitions and Agent configurations in the same workspace. Local processing and sample generation run without a backend.
+
+[Explore the workbench →](https://icesky.securityforai1.com) &nbsp; · &nbsp; [View the repository](https://github.com/spindriftpapilio/icesky)
+
+<br>
+
+### Beyond the workbench
+
+**[AI-Agent-skills](https://github.com/spindriftpapilio/AI-Agent-skills)**<br>
+Security assessment methods for coding Agents and AI-powered development tools, covering workspace trust, approvals, MCP configuration, hooks, and skill supply chains.
+
+**[AI-Security-zh](https://github.com/spindriftpapilio/AI-Security-zh)**<br>
+A Chinese-language research library of AI security learning materials, references, frameworks, and tools.
+
+**[LLM-Jailbreak](https://github.com/spindriftpapilio/LLM-Jailbreak)**<br>
+Jailbreak research notes and resources for exploring model behavior.
+
+<br>
 
 ---
 
@@ -28,5 +47,5 @@ My focus is where model behavior becomes system behavior, from a hidden instruct
   Research in public. Build practical tools. Share what holds up in testing.
 </p>
 <p align="center">
-  <sub>CHENGDU · WECHAT OFFICIAL ACCOUNT: SECURITY FOR AI</sub>
+  <sub>CHENGDU &nbsp; · &nbsp; WECHAT OFFICIAL ACCOUNT: SECURITY FOR AI</sub>
 </p>
