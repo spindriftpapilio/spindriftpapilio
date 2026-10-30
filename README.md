@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/security-for-ai.svg" alt="Security for AI — auroras over an arctic glacier" width="100%">
+  <img src="assets/security-for-ai.svg" alt="Security for AI — an ice-crystal butterfly above a glacial fjord" width="100%">
 </p>
 
 <p align="center">
