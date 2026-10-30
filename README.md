@@ -18,26 +18,15 @@ My work spans multimodal inputs, MCP configuration, workspace trust, and approva
 
 <br>
 
-### IceSky
+### Selected projects
 
-A browser-based workbench for multimodal prompt injection testing.
+- **[IceSky](https://github.com/spindriftpapilio/icesky)** — A browser-based workbench for multimodal prompt injection testing across text, documents, images, audio, and Agent configurations. [Try it live →](https://icesky.securityforai1.com)
 
-Transform text, compose multi-turn conversations, and create test samples across documents, images, audio, email, and web content. Explore MCP definitions and Agent configurations in the same workspace. Local processing and sample generation run without a backend.
+- **[AI-Agent-skills](https://github.com/spindriftpapilio/AI-Agent-skills)** — Security assessment methods for coding Agents, covering workspace trust, approvals, MCP configuration, hooks, and skill supply chains.
 
-[Explore the workbench →](https://icesky.securityforai1.com) &nbsp; · &nbsp; [View the repository](https://github.com/spindriftpapilio/icesky)
+- **[AI-Security-zh](https://github.com/spindriftpapilio/AI-Security-zh)** — A Chinese-language collection of AI security learning materials, research references, frameworks, and tools.
 
-<br>
-
-### Beyond the workbench
-
-**[AI-Agent-skills](https://github.com/spindriftpapilio/AI-Agent-skills)**<br>
-Security assessment methods for coding Agents and AI-powered development tools, covering workspace trust, approvals, MCP configuration, hooks, and skill supply chains.
-
-**[AI-Security-zh](https://github.com/spindriftpapilio/AI-Security-zh)**<br>
-A Chinese-language research library of AI security learning materials, references, frameworks, and tools.
-
-**[LLM-Jailbreak](https://github.com/spindriftpapilio/LLM-Jailbreak)**<br>
-Jailbreak research notes and resources for exploring model behavior.
+- **[LLM-Jailbreak](https://github.com/spindriftpapilio/LLM-Jailbreak)** — Jailbreak research notes and resources for exploring model behavior.
 
 <br>
 
