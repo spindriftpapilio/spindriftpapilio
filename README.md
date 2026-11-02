@@ -1,8 +1,13 @@
 <p align="center">
+  English &nbsp; · &nbsp; <a href="README.zh-CN.md">简体中文</a>
+</p>
+
+<p align="center">
   <img src="assets/security-for-ai.svg" alt="Security for AI — an ice-crystal butterfly above a glacial fjord" width="100%">
 </p>
 
 <p align="center">
+  <a href="https://www.securityforai1.com/">Personal Website</a> &nbsp; · &nbsp;
   <a href="https://icesky.securityforai1.com">Explore IceSky</a> &nbsp; · &nbsp;
   <a href="https://github.com/spindriftpapilio/AI-Agent-skills">Agent Security</a> &nbsp; · &nbsp;
   <a href="https://github.com/spindriftpapilio/AI-Security-zh">Research Library</a>
@@ -12,7 +17,7 @@
 
 ### Where model behavior becomes system behavior
 
-I'm a developer based in Chengdu, exploring what happens when untrusted input meets an AI system that can act. I build tools for prompt injection testing and study how AI Agents handle instructions, tools, files, and permissions.
+I'm 飞雪蝶影 (spindriftpapilio), a developer based in Chengdu, exploring what happens when untrusted input meets an AI system that can act. I build tools for prompt injection testing and study how AI Agents handle instructions, tools, files, and permissions.
 
 My work spans multimodal inputs, MCP configuration, workspace trust, and approval mechanisms, with an emphasis on observable behavior and reproducible tests.
 
