@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">飞雪蝶影 · AI安全研究</title>
+  <desc id="desc">冰晶蝴蝶在冰川峡湾上方展开半透明的翅膀，远山与柔和的极光映衬其后。探索输入，理解影响，分享AI安全研究与工具。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#030d1c"/>
+      <stop offset="0.55" stop-color="#0a2438"/>
+      <stop offset="1" stop-color="#244f64"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0" y1="1" x2="0.8" y2="0">
+      <stop stop-color="#65f5cf" stop-opacity="0"/>
+      <stop offset="0.4" stop-color="#65f5cf" stop-opacity=".65"/>
+      <stop offset="0.7" stop-color="#66dfe8" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#b6a0ff" stop-opacity=".12"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#69dacc" stop-opacity="0"/>
+      <stop offset=".55" stop-color="#a899ff" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#a899ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ice" x1="0" y1="0" x2="0.7" y2="1">
+      <stop stop-color="#ddf9ff"/>
+      <stop offset=".45" stop-color="#91cbdc"/>
+      <stop offset="1" stop-color="#386b91"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#163f55"/>
+      <stop offset="1" stop-color="#071b2c"/>
+    </linearGradient>
+    <linearGradient id="shade">
+      <stop stop-color="#030d1c" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#030d1c" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="17"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#edffff" stop-opacity=".95"/>
+      <stop offset=".32" stop-color="#93e5ef" stop-opacity=".72"/>
+      <stop offset=".67" stop-color="#568fc9" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#c4b7ff" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="hindwing" x1="0" y1="0" x2=".8" y2="1">
+      <stop stop-color="#b5f6ed" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#7295db" stop-opacity=".35"/>
+    </linearGradient>
+    <radialGradient id="halo">
+      <stop stop-color="#b4f4ff" stop-opacity=".19"/>
+      <stop offset="1" stop-color="#b4f4ff" stop-opacity="0"/>
+    </radialGradient>
+    <g id="left-wings" stroke-linejoin="round">
+      <path d="M-5 10C-31-33-91-93-156-110C-153-57-140-5-109 16C-79 36-40 33-5 10Z" fill="url(#wing)" stroke="#cafaff" stroke-width="1.3"/>
+      <path d="M-8 16C-44 22-76 28-105 23C-115 54-104 77-81 81L-91 110-62 90C-34 87-18 55-8 16Z" fill="url(#hindwing)" stroke="#b4edf7" stroke-opacity=".8" stroke-width="1.1"/>
+      <path d="M-156-110L-87-54-109 16Z" fill="#ddffff" opacity=".32"/>
+      <path d="M-156-110L-43-27-87-54Z" fill="#eaffff" opacity=".32"/>
+      <path d="M-87-54L-43-27-5 10-69-3Z" fill="#83b4f1" opacity=".25"/>
+      <path d="M-109 16L-69-3-5 10-55 26Z" fill="#dbd7ff" opacity=".35"/>
+      <path d="M-105 23L-53 45-81 81Z" fill="#a1eaf9" opacity=".3"/>
+      <path d="M-8 16L-53 45-62 90Z" fill="#a6a8f5" opacity=".3"/>
+      <g fill="none" stroke="#e1ffff" stroke-opacity=".48" stroke-width=".8">
+        <path d="M-5 10L-87-54-156-110M-5 10L-69-3-109 16M-87-54L-109 16M-87-54L-43-27M-69-3L-87-54M-8 16L-53 45-81 81M-53 45L-105 23M-53 45L-62 90"/>
+        <path d="M-134-66L-111-52-116-24M-99-67L-86-36-58-18M-88 48L-68 55-58 75" stroke-opacity=".5"/>
+      </g>
+      <g fill="#efffff">
+        <circle cx="-156" cy="-110" r="2"/>
+        <circle cx="-87" cy="-54" r="1.6"/>
+        <circle cx="-109" cy="16" r="1.4"/>
+        <circle cx="-53" cy="45" r="1.5"/>
+        <circle cx="-91" cy="110" r="1.2"/>
+      </g>
+    </g>
+    <clipPath id="frame"><rect width="1200" height="460" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="url(#sky)" d="M0 0h1200v460H0z"/>
+    <g fill="#e4fbff">
+      <circle cx="70" cy="43" r="1" opacity=".7"/>
+      <circle cx="193" cy="72" r="1.3" opacity=".6"/>
+      <circle cx="315" cy="32" r=".8" opacity=".5"/>
+      <circle cx="444" cy="64" r="1" opacity=".75"/>
+      <circle cx="578" cy="31" r="1.1" opacity=".5"/>
+      <circle cx="690" cy="93" r=".8" opacity=".7"/>
+      <circle cx="763" cy="40" r="1.4" opacity=".8"/>
+      <circle cx="875" cy="75" r=".8" opacity=".6"/>
+      <circle cx="993" cy="35" r="1" opacity=".65"/>
+      <circle cx="1124" cy="87" r="1.3" opacity=".8"/>
+      <circle cx="1060" cy="171" r=".9" opacity=".6"/>
+      <circle cx="1172" cy="207" r=".9" opacity=".5"/>
+      <circle cx="649" cy="157" r="1" opacity=".5"/>
+      <circle cx="932" cy="206" r=".7" opacity=".6"/>
+    </g>
+    <path d="M380-50C530 180 685 245 845 109S1100 20 1260 93" fill="none" stroke="url(#aurora)" stroke-width="95" filter="url(#glow)"/>
+    <path d="M410-50C565 173 687 210 847 91S1109 9 1250 66" fill="none" stroke="url(#aurora)" stroke-width="32" filter="url(#soft)"/>
+    <path d="M631-65C691 74 822 180 1000 71S1133 6 1240 21" fill="none" stroke="url(#violet)" stroke-width="70" filter="url(#glow)"/>
+    <path d="M481-10C588 180 708 193 856 87S1089 14 1201 49" fill="none" stroke="#9af5da" stroke-opacity=".24" stroke-width="2" filter="url(#soft)"/>
+    <path d="M0 319L80 283 128 302 208 260 269 303 342 274 414 315 506 282 597 312 682 267 741 293 832 253 925 295 1030 251 1133 291 1200 265V460H0Z" fill="#284b65"/>
+    <path d="M0 347L99 312 179 333 275 300 360 333 455 310 548 345 656 309 733 336 838 286 912 319 1022 278 1111 323 1200 299V460H0Z" fill="#3d6c84"/>
+    <path d="M0 355Q350 330 630 355T1200 350V460H0Z" fill="url(#water)"/>
+    <path d="M670 356L757 287 823 304 908 217 962 257 1019 244 1091 307 1147 280 1200 313V380L1102 373 1015 387 941 368 854 382 773 365Z" fill="url(#ice)"/>
+    <path d="M757 287L784 346 823 304 812 366 854 382 860 316 908 217 885 334 941 368 962 257 966 345 1015 387 1019 244 1049 331 1102 373 1091 307 1147 280 1131 347 1200 380V395L1080 387 1007 399 936 382 855 394 770 377 670 356Z" fill="#447d9f" opacity=".68"/>
+    <path d="M670 356L757 287 823 304 908 217 962 257 1019 244 1091 307 1147 280 1200 313" fill="none" stroke="#e0fbff" stroke-opacity=".7" stroke-width="1.5"/>
+    <path d="M0 375L74 328 126 348 193 306 245 357 312 371 356 395 270 408 170 393 81 410 0 397Z" fill="url(#ice)"/>
+    <path d="M74 328L91 383 126 348 170 393 193 306 205 370 270 408 245 357 312 371 356 395 270 421 170 408 81 423 0 408V397Z" fill="#396786" opacity=".85"/>
+    <g fill="none" stroke="#8fd8e5" stroke-linecap="round">
+      <path d="M390 380h133m-88 15h184m-269 26h150m64-9h73m121 17h182m-92-26h129m53 20h90" opacity=".17"/>
+      <path d="M470 367h95m166 36h49m-380 39h226m316-22h61" opacity=".25"/>
+    </g>
+    <ellipse cx="903" cy="180" rx="230" ry="185" fill="url(#halo)"/>
+    <g transform="translate(905 181) rotate(-12)">
+      <use href="#left-wings"/>
+      <use href="#left-wings" transform="scale(-1 1)"/>
+      <path d="M0-19C-6-8-5 20 0 49C5 20 6-8 0-19Z" fill="#d8fbff"/>
+      <path d="M0-17C-4-29-12-38-20-39M0-17C4-29 12-38 20-39" fill="none" stroke="#d1f9ff" stroke-width="1.2" stroke-linecap="round"/>
+      <circle cy="-18" r="3.5" fill="#f2ffff"/>
+      <path d="M0-7V34" stroke="#6aa8bd" stroke-width="1.1"/>
+    </g>
+    <g fill="#d9ffff">
+      <path d="M728 117l2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" opacity=".8"/>
+      <path d="M1080 235l2 7 7 2-7 2-2 7-2-7-7-2 7-2Z" opacity=".8"/>
+      <path d="M971 51l1.5 5 5 1.5-5 1.5-1.5 5-1.5-5-5-1.5 5-1.5Z" opacity=".6"/>
+      <circle cx="748" cy="192" r="1.5" opacity=".7"/>
+      <circle cx="1044" cy="283" r="1.6" opacity=".65"/>
+      <circle cx="1018" cy="89" r="1.4" opacity=".7"/>
+      <circle cx="807" cy="55" r="1.1" opacity=".8"/>
+      <circle cx="1096" cy="153" r="1.3" opacity=".55"/>
+    </g>
+    <path fill="url(#shade)" d="M0 0h690v320H0z"/>
+    <g font-family="system-ui, -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif">
+      <text x="72" y="113" fill="#a5eddf" font-size="15" font-weight="500" letter-spacing="3">AI安全研究</text>
+      <text x="68" y="183" fill="#effbff" font-size="62" font-weight="650" letter-spacing="6">飞雪蝶影</text>
+      <text x="72" y="225" fill="#bed6e2" font-size="19" letter-spacing="1">探索输入，理解影响。</text>
+      <path d="M73 258h42" stroke="#93e8d5" stroke-width="2"/>
+      <text x="130" y="263" fill="#b3d0de" font-size="13" letter-spacing="2">研究 · 开发 · 分享</text>
+    </g>
+  </g>
+</svg>

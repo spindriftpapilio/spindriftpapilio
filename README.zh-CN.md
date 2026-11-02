@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/security-for-ai.svg" alt="Security for AI — 冰川峡湾上方的冰晶蝴蝶" width="100%">
+  <img src="assets/security-for-ai.zh-CN.svg" alt="飞雪蝶影 · AI安全研究 — 冰川峡湾上方的冰晶蝴蝶" width="100%">
 </p>
 
 <p align="center">
